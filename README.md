@@ -47,7 +47,7 @@ I checked and all the required columns for customer churn analysis like Customer
 | Duplicates           | Prevents overcounting                                 |
 | Outliers             | Ensures accurate statistics                          |
 
-**🧠 Think Like a Data Analyst**
+**🧠 Think Like a Data Analyst**  
 Don’t just ask: “Is the data clean?”  
 Instead ask: “Is the data good enough to solve the business problem?”
 
