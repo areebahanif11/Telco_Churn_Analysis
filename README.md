@@ -18,6 +18,19 @@ I asked myself:
 I checked and all the required columns for customer churn analysis like CustomerID, Tenure, Churn, Contract, MonthlyCharges are present. 
 
 ## Step 2: Is the data reliable?
+- Check for missing values 
+ I Selected the entire data.
+ Use Conditional Formatting → Highlight Cell Rules → Blanks.
+ Result: Missing values highlighted
+- Check for duplicate values
+  I selected Customer ID column and highlight duplicate values
+  Result: No duplicates found
+- Check for Inconsistent or Invalid Data
+   Tenure should be ≥ 0
+   Use formula in new column:
+   =IF(C2<0, "Invalid", "Valid")
+   MonthlyCharges & TotalCharges should be numeric
+   
 
 
 
